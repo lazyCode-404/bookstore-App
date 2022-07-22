@@ -2,8 +2,8 @@
 
 > A web app for adding, removing and editing books.
 
-![screenshot]![bookstore-app](https://user-images.githubusercontent.com/99142463/180506299-8dfb48a3-0976-4fd3-90c4-86ba79630a8c.png)
-()
+![bookstore-app](https://user-images.githubusercontent.com/99142463/180506299-8dfb48a3-0976-4fd3-90c4-86ba79630a8c.png)
+
 
 
 
@@ -64,7 +64,7 @@ npx eslint .
 👤 **Author1**
 👤 **Bwalya Nonde**
 
- GitHub: [@githubhandle](https://github.com/BwalyaNonde)
+- GitHub: [@githubhandle](https://github.com/BwalyaNonde)
 - Twitter: [@twitterhandle](https://twitter.com/nonde_bwalya)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/bwalya-nonde-5865601a9/)
 
