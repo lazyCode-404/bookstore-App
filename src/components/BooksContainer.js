@@ -1,8 +1,8 @@
 import React from 'react';
-import BookContent from './Book';
+import BookContent from './BooksList';
 import AddBook from './AddBook';
 
-const BookContainer = () => {
+const BooksContainer = () => {
   const books = [
     {
       title: 'The road to success',
@@ -25,4 +25,4 @@ const BookContainer = () => {
     </div>
   );
 };
-export default BookContainer;
+export default BooksContainer;

@@ -1,24 +1,38 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Books from './Books';
 
-const BookContent = ({ books }) => (
-  <ul className="book-content">
-    {
-books.map((book) => <Books key={book.id} book={book} />)
-}
-  </ul>
+const Books = (props) => {
+  const {
+    book: {
+      title,
+      author,
+      id,
+      category,
+    },
 
-);
-BookContent.propTypes = {
-  books: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      title: PropTypes.string.isRequired,
-      author: PropTypes.string.isRequired,
-      category: PropTypes.string.isRequired,
-    }).isRequired,
-  ).isRequired,
+  } = props;
+
+  return (
+    <>
+      <li key={id} className="books-content">
+        {title}
+        {' by '}
+        {author}
+        {' - '}
+        {category}
+      </li>
+      <button type="button" id={id}>Remove</button>
+    </>
+  );
 };
 
-export default BookContent;
+Books.propTypes = {
+  book: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    author: PropTypes.string.isRequired,
+    category: PropTypes.string.isRequired,
+  }).isRequired,
+};
+
+export default Books;
