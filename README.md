@@ -61,7 +61,6 @@ npx eslint .
 
 ## Authors
 
-👤 **Author1**
 👤 **Bwalya Nonde**
 
 - GitHub: [@githubhandle](https://github.com/BwalyaNonde)
