@@ -59,13 +59,13 @@ npx eslint .
 
 
 
-## Authors
+## Authors 1
 
 👤 **Bwalya Nonde**
 
 - GitHub: [@githubhandle](https://github.com/BwalyaNonde)
 - Twitter: [@twitterhandle](https://twitter.com/nonde_bwalya)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bwalya-nonde-5865601a9/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bwalya-nonde/)
 
 ## Show your support
 
