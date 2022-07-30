@@ -20,7 +20,7 @@ const AddBook = () => {
     dispatch(addBook(booksData));
   };
 
-  const handleTile = (e) => {
+  const handleTitle = (e) => {
     setTitle(e.target.value);
   };
 
@@ -36,7 +36,7 @@ const AddBook = () => {
       <div className="add-container">
         <h2>ADD NEW BOOK</h2>
         <form>
-          <input type="text" placeholder="Book Title" onChange={handleTile} />
+          <input type="text" placeholder="Book Title" onChange={handleTitle} />
           <input type="text" placeholder="Book Author" onChange={handleAuthor} />
           <input type="text" placeholder="Category" onChange={handleCategory} />
           <button type="button" onClick={postBook}>Add Book</button>
