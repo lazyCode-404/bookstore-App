@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import BookContainer from './components/BooksContainer';
+import BookContainer from './components/BookContainer';
 import Categories from './components/Category';
 import './App.css';
 
