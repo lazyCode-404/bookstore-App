@@ -59,7 +59,7 @@ npx eslint .
 
 
 
-## Authors !
+## Authors 
 
 👤 **Bwalya Nonde**
 
