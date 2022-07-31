@@ -1,22 +1,23 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { BrowserRouter as Router } from 'react-router-dom';
-import './index.css';
-import App from './App';
-import store from './Redux/store';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import store from './redux/configureStore';
+import Books from './Ui/books';
+import Categories from './Ui/categories';
+import './style.css';
+import '@fontsource/roboto-slab';
+/* eslint-disable react/jsx-key */
+ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <Router>
-        <App />
+        <Routes>
+          <Route path="/" exact element={<Books />} />
+          <Route path="/categories" exact element={<Categories />} />
+        </Routes>
       </Router>
     </Provider>
   </React.StrictMode>,
+  document.getElementById('root'),
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
